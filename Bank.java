@@ -8,23 +8,23 @@
  *
  * @author USER1
  */
- class BankClass {
-     
-    private int AccNo;
-    private int BalanceAmt;
-    BankClass(
-    )
+ 
+public class Bank {
+
+    private int AcNo;
+    private int Balance;
+    Bank()
     {
-        AccNo=1001;
-        BalanceAmt=10000;
+        AcNo=1001;
+        Balance=10000;
     }
     void display()
     {
-        System.out.println(AccNo);
-        System.out.println(BalanceAmt);
+        System.out.println(AcNo);
+        System.out.println(Balance);
     }
 }
-class TempClass
+class Temp
 {
     public static void main(String args[])
     {
@@ -33,4 +33,4 @@ class TempClass
         b.display();
     }
 }
-
+    
